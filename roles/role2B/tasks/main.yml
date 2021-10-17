@@ -1,0 +1,8 @@
+---
+# tasks file for role2B
+
+- debug: 
+    msg: "Hello from Role 2 B"
+
+- import_role:
+    name: demo.collection1.role1A
