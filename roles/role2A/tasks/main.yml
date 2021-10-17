@@ -2,7 +2,7 @@
 # tasks file for role2A
 
 - debug: 
-    msg: "Hello from Role 2 A"
+    msg: "Hello from Role 2  A"
 
 - import_role: 
     name: demo.collection2.role2B
